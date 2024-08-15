@@ -61,20 +61,13 @@
         { year: "1961", result: "N/A"},
         { year: "1960", result: "N/A"}
       ]
-    
-    //...
-// code your solution here
-  
-  
-  
+
 function superbowlWin(record) {
     const winningYear = record.find(obj => obj.result === "W");
-  
+
     if (winningYear) {
       return winningYear.year;
     } else {
       return undefined;
     }
   }
-  
-  
